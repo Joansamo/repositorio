@@ -1,0 +1,18 @@
+ocr:
+  tesseract_path: "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+  psm: 6
+  whitelist: "0123456789."
+
+image_processing:
+  x_min: 200
+  x_max: 900
+  y_min: 700
+  y_max: 900
+
+model_training:
+  img_size: 128
+  batch_size: 64
+  epochs: 20
+
+evaluation:
+  ground_truth: "2024.11.14"
